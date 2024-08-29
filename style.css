@@ -89,7 +89,7 @@ body {
 }
 
 .contact a:hover {
-    background: #000000;
+    background: #262626;
     color:#4CE0D7 ;
     transform: scale(1.1);
 }
@@ -150,3 +150,101 @@ body {
     max-width: 494px;
 }
 
+/* second section */
+
+.second-section {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-section h1  {
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    margin-top: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 51px 30px 30px;
+    background-color:#FFFFFF ;
+    width:max-content;
+    border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    transition: 0.2s;
+}
+
+.card img {
+    width: 88px;
+}
+
+.card h1 {
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+}
+
+.card button {
+    width: 144px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    background: #4CE0D7;
+color: #262626;
+    border-radius:40px ;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.wordnbut {
+    display: flex;
+    flex-direction: column;
+    gap:39px ;
+}
+
+.card:hover {
+    background: linear-gradient(45deg,#8BA9F4 , #4CE0D7);
+    transform: translateY(-20px);
+    
+}
+
+@keyframes pulse {
+    50% {transform: scale(1.4);
+}
+}
+
+.card:hover button {
+    transform: scale(1.2);
+    -webkit-animation: pulse 1.5s infinite;
+}
+
+.card button:hover {
+    background-color: #262626;
+    color: #4CE0D7;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.second-section hr {
+    margin-top: 87.5px;
+    margin-bottom: 52.5px;
+}
