@@ -26,8 +26,11 @@ body {
 /* header  */
 
 .logo img {
-    height: 60px; /* ლოგოს სიმაღლის განსაზღვრა */
-    object-fit: contain; /* სურათის პროპორციების შენარჩუნება */
+    width: 226px;
+    height: 49px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
 
 
@@ -54,7 +57,7 @@ body {
 .nav{
     display: flex;
     align-items: center;
-    gap: 26px;
+    gap: 15px;
 }
 
 
@@ -63,18 +66,43 @@ body {
     font-size: 14px;
     color: black;
     font-weight: 700;
+    transition: 0.2s;
 }
 
 .nav a:hover{
     border-radius: 40px;
     background-color: #4CE0D7;
+    transform: scale(1.1);
 }
 
+.contact a {
+    width: 143.81px;
+    height: 35.95px;
+    border-radius: 40px;
+    background-color: #4CE0D7;
+    transition: 0.2s;
+    padding: 8px 32px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.contact a:hover {
+    background: #000000;
+    color:#4CE0D7 ;
+    transform: scale(1.1);
+}
 
 .nav img{
     margin-left: 67px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
+.nav img:hover{
+    transform: scale(1.2);
+}
 
 .first-section{
     display: flex;
