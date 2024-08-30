@@ -43,9 +43,6 @@ body {
     padding-bottom: 47px;
 }
 
-
-/* header  */
-
 .header{
     display: flex;
     align-items: center;
@@ -86,12 +83,6 @@ body {
     color: black;
     font-weight: 700;
     transition: 0.2s;
-}
-
-.contact a:hover {
-    background: #262626;
-    color:#4CE0D7 ;
-    transform: scale(1.1);
 }
 
 .nav img{
@@ -227,13 +218,14 @@ color: #262626;
 }
 
 @keyframes pulse {
-    50% {transform: scale(1.4);
-}
+    50% {transform: scale(1.4);}
 }
 
 .card:hover button {
     transform: scale(1.2);
-    -webkit-animation: pulse 1.5s infinite;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .card button:hover {
