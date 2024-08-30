@@ -26,8 +26,11 @@ body {
 /* header  */
 
 .logo img {
-    height: 60px; /* ლოგოს სიმაღლის განსაზღვრა */
-    object-fit: contain; /* სურათის პროპორციების შენარჩუნება */
+    width: 226px;
+    height: 49px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
 
 
@@ -39,9 +42,6 @@ body {
     padding-top: 37px;
     padding-bottom: 47px;
 }
-
-
-/* header  */
 
 .header{
     display: flex;
@@ -54,7 +54,7 @@ body {
 .nav{
     display: flex;
     align-items: center;
-    gap: 26px;
+    gap: 15px;
 }
 
 
@@ -63,18 +63,37 @@ body {
     font-size: 14px;
     color: black;
     font-weight: 700;
+    transition: 0.2s;
 }
 
 .nav a:hover{
     border-radius: 40px;
     background-color: #4CE0D7;
+    transform: scale(1.1);
 }
 
+.contact a {
+    width: 143.81px;
+    height: 35.95px;
+    border-radius: 40px;
+    background-color: #4CE0D7;
+    transition: 0.2s;
+    padding: 8px 32px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    transition: 0.2s;
+}
 
 .nav img{
     margin-left: 67px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
+.nav img:hover{
+    transform: scale(1.2);
+}
 
 .first-section{
     display: flex;
@@ -122,3 +141,102 @@ body {
     max-width: 494px;
 }
 
+/* second section */
+
+.second-section {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-section h1  {
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    margin-top: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 51px 30px 30px;
+    background-color:#FFFFFF ;
+    width:max-content;
+    border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    transition: 0.2s;
+}
+
+.card img {
+    width: 88px;
+}
+
+.card h1 {
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+}
+
+.card button {
+    width: 144px;
+    height: 36px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    background: #4CE0D7;
+color: #262626;
+    border-radius:40px ;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.wordnbut {
+    display: flex;
+    flex-direction: column;
+    gap:39px ;
+}
+
+.card:hover {
+    background: linear-gradient(45deg,#8BA9F4 , #4CE0D7);
+    transform: translateY(-20px);
+    
+}
+
+@keyframes pulse {
+    50% {transform: scale(1.4);}
+}
+
+.card:hover button {
+    transform: scale(1.2);
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.card button:hover {
+    background-color: #262626;
+    color: #4CE0D7;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.second-section hr {
+    margin-top: 87.5px;
+    margin-bottom: 52.5px;
+}
