@@ -347,3 +347,130 @@ color: #262626;
     color: #4ce0d7;
     width:max-content;
   }
+
+
+/* trending section */
+.trending-section{
+    margin-bottom: 88px;
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+.trending-title h1{
+    margin-bottom: 55px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.trending-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.trending-card {
+    box-shadow: 0px 6px 6px 0px #000000;
+    width: max-content;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.trending-button a{
+    margin-top: 55px;
+    padding: 10px 49px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: #262626;
+    border-radius: 40px;
+
+}
+
+.trending-button{
+    background: url(photos/lifelife.png);
+    padding: 20px 369px 219px 34px;
+    width: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.trending-button-1{
+    background: url(photos/women.png);
+    padding: 20px 369px 219px 34px;
+    width: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+.trending-button-1 a{
+    margin-top: 55px;
+    padding: 10px 49px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: #262626;
+    border-radius: 40px;
+
+}
+
+
+.trending-card-first {
+display: flex;
+align-items: center;
+gap: 28px;
+margin-left: 26px;
+margin-top: 23px;
+color: 
+#BCBCBC;
+font-size: 14px;
+font-weight: 400;
+
+}
+.trending-card-first img{
+    border-radius: 100%;
+}
+.trending-card-first div{
+    display: flex;
+    gap: 160px;
+
+}
+
+.trending-card-second{
+    max-width: 430px;
+    margin-left: 26px;
+    margin-top: 29px;
+}
+
+.trending-card-second h1{
+font-size: 26px;
+font-size: 700;
+color: #262626;
+
+}
+
+.trendind-card-second p{
+    font-size: 16px;
+    font-size: 400;
+    color: #262626;
+}
+
+.trending-card-third a{
+    display: flex;
+    align-items: center;
+    row-gap: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: 
+    #4CE0D7;
+    margin-top: 20px;
+    margin-left: 26px;
+    margin-bottom: 36px;
+}
