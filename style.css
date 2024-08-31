@@ -368,7 +368,7 @@ color: #262626;
     justify-content: space-between;
 }
 .trending-card {
-    box-shadow: 0px 6px 6px 0px #000000;
+    box-shadow: 0px 6px 6px 0px #0000000D;
     width: max-content;
     background-color: white;
     border-radius: 20px;
@@ -383,8 +383,20 @@ color: #262626;
     color: white;
     background-color: #262626;
     border-radius: 40px;
+    transition: 0.2s;
 
 }
+
+.trending-button a:hover{
+    color: #262626;
+    background-color: #4CE0D7;
+  }
+
+  .trending-button-1 a:hover{
+    transform: scale(1.25);
+    color: #262626;
+    background-color: #4CE0D7;
+  }
 
 .trending-button{
     background: url(photos/lifelife.png);
@@ -405,7 +417,7 @@ color: #262626;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-
+    transition: 0.2s;
 }
 .trending-button-1 a{
     margin-top: 55px;
