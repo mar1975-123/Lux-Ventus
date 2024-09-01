@@ -763,7 +763,7 @@ color: #BCBCBC;
 
 .trending-card-third span {
     position: absolute;
-    left: 828px;
+    left: 805px;
     opacity: 0;
     z-index: 2;
     transition: opacity 0.8 ease-in-out; 
