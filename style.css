@@ -144,6 +144,12 @@ body {
 
 /* second section */
 
+.topics {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
 .second-section {
     margin-top: 73px;
     display: flex;
@@ -722,7 +728,7 @@ color: #BCBCBC;
 
 .fifth-read span {
     position: absolute;
-    left: 740px;
+    left: 750px;
     opacity: 0;
     z-index: 2;
     transition: opacity 0.8 ease-in-out; 
@@ -836,7 +842,7 @@ color: #BCBCBC;
 
 .third-three span {
     position: absolute;
-    left: 200px;
+    left: 205px;
     opacity: 0;
     z-index: 2;
     transition: opacity 0.8 ease-in-out; 
@@ -936,8 +942,10 @@ font-weight: 700;
 
 @media (max-width: 1262px) {
 .header{ flex-direction: column;}
-.trending-cards {flex-direction: column;}
-.cards {flex-wrap: wrap;}
+.trending-cards {flex-direction: column; }
+.trending-section {margin-left:140px; margin-top: 97px;}
+.cards {flex-wrap: wrap; gap: 40px;}
+.second-section{gap: 48px;}
 .mallory div {display: flex;
 flex-direction: column;gap: 10px;}
 .card-fifth {display: flex;
@@ -952,12 +960,10 @@ margin: 0 auto;
         margin: 0 auto;
         }
 .trending-cards {
-    margin: 0 auto;
+   
     gap: 60px;
 }
-.trending-card {
-    margin: 0 auto;
-}
+
 .images {
     flex-direction: column;
     gap: 20px;
@@ -971,16 +977,39 @@ margin: 0 auto;
 }
 }
 
-@media (max-width: 870px) {
- .nav {
-   
-    gap: 0px;
-    justify-content: center;
- }
+@media (max-width: 900px) {
+.second-section {
+    gap: 48px;
+}
+
 
 }
 
+@media (max-width: 800px) {
+    .first-section {
+        padding-right:370px ;
+        gap: 48px;
+    }
+    .topics {
+        margin-left: 300px;
+    }
+    .topics h1 {
+       font-size: 60px;
+       font-weight: 900;
+    }
+    .card h1 {
+        font-size: 20px;
+    }
+    .fifth-section {
+        margin-left: 150px;
+    }
+    }
+    
+
 @media (max-width: 1300px) {
+    .fifth-section {
+        margin-left: 0px;
+    }
     .images {
         flex-direction: column;
         gap: 20px;
@@ -1008,12 +1037,18 @@ margin: 0 auto;
     }
 
     .third-section {
-        margin: 0 100px;
+        margin: 0 220px;
         max-width: max-content;
     }
 
     footer {
         margin-top: 69px;
+        background-color: white;
+        padding-right: 233px;
+    }
+
+    .footer {
+        margin-left: 219px;
     }
 }
 
