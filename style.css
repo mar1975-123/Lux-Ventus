@@ -26,6 +26,14 @@ body {
 
 /* header  */
 
+header {
+    position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #F9F9F9;
+  z-index: 7;
+}
+
 .logo img {
     width: 226px;
     height: 49px;
