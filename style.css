@@ -1008,8 +1008,9 @@ margin: 0 auto;
     .card h1 {
         font-size: 20px;
     }
-    .fifth-section {
-        margin-left: 150px;
+    .fifth {
+       
+        padding-left: 150px;
     }
     }
     
